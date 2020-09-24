@@ -16,7 +16,8 @@
   width: 65vw;
   height: auto;
   margin:0 20px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  padding:0 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .head {
   padding: 18px 20px;
