@@ -15,8 +15,7 @@
 .child {
   width: 65vw;
   height: auto;
-  margin:0 20px;
-  padding:0 20px;
+  border-radius:6px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .head {
