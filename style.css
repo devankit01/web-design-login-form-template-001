@@ -13,11 +13,14 @@
 }
 
 .child {
-  width: 65vw;
+  width: 340px;
   height: auto;
   border-radius:6px;
+  margin: 20px;
+  border: 2px solid #000;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .head {
   padding: 18px 20px;
 }
