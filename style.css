@@ -88,3 +88,6 @@ form h2 {
 .strip{
     margin:8px 10px;
 }
+.strip input[type='checkbox']{
+   margin: 5px 0px;
+ 
