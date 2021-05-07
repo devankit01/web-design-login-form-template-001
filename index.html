@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login Form</title>
+    <script src="script.js"></script>
+    <title>Register Now</title>
 </head>
 <body>
     <div class="parent">
@@ -15,15 +16,14 @@
             </div>
             <div class="form__wrap">
                 <form autocomplete="off">
-                <p>start your personal photo experience</p>
-                <h2>Login your account</h2>
-                <label>Email</label>
-                <input type="email" name="email" placeholder=" Your Email" class="form__input"/>
-                <label>Password</label>
-                <input type="password" name="password" placeholder="Your Password" class="form__input" />
-                
+                <h2>Register your account</h2>
+                <input type="email" name="email" placeholder="  Email address" class="form__input" required/>
+                <input type="text" name="username" placeholder="  Username" class="form__input" required/>
+                <input type="phone" name="phone" placeholder="  Phone Number" class="form__input" required/>
+                <input type="password" name="password" placeholder="Password" class="form__input" required/>
+                <input type="password" name="confirmpassword" placeholder="Confirm Password" class="form__input" required/>
                 <div class="btn__grp">
-                    <input type="button" name="register" value="Register" class="btn btn-r" />
+                    <input type="submit" name="register" value="Register" class="btn btn-r" />
                 <input type="submit" name="signin" value="Signin" class="btn btn-l"/><br/>
 
             </div>
